@@ -1,3 +1,30 @@
 *{
     box-sizing: border-box;
 }
+
+.card{
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+}
+
+.top{
+   
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid grey;
+   
+}
+
+
+.info{
+    text-align: center;
+}
