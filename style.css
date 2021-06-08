@@ -5,6 +5,7 @@
 body{
     background-color:hsl(185, 75%, 39%) ;
     
+    
 }
 
 .card{
@@ -15,10 +16,17 @@ body{
  flex-direction: column;
 align-items: center;
 border-radius: 20px;
-margin-top: 50px;
 background-color: #fff;
 z-index: 99;
 box-shadow:   0 0 20px black;
+
+
+}
+
+#background{
+display: flex;
+flex-direction: row;
+
 }
 
 .top{
@@ -50,12 +58,10 @@ box-shadow:   0 0 20px black;
     
 }
 
-.svg{
-    position: unset;
-    border: none;
-    border-radius: unset;
-    width: 300px;
-}
+
+
+
+
 
 .lightgrey{
     color: hsl(0, 0%, 59%)
@@ -102,6 +108,28 @@ box-shadow:   0 0 20px black;
     font-weight: 400;
     font-size: 12px;
 }
+
+
+
+#background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   }
+   
+   #svg1{
+       align-self: flex-start;
+       
+       
+   }
+
+  
+   
+   #svg2{
+       align-self: flex-end;
+   }
+   
 
 
 
