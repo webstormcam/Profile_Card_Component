@@ -28,12 +28,24 @@ border-radius: 20px;
     padding-top: 50px;
 }
 
+img{
+    border-radius: 50px;
+    border: 5px solid red;
+    
+    
+}
+
+.lightgrey{
+    color: hsl(0, 0%, 59%)
+}
+
 .stats{
     display: flex;
     flex-direction: row;
     border-top: 1px solid grey;
     width: 350px;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    text-align: center;
    
    
 }
@@ -41,4 +53,25 @@ border-radius: 20px;
 
 .info{
     text-align: center;
+}
+
+.info p{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info span{
+    font-weight: 400;
+}
+
+.stats p{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stats span{
+    font-weight: 400;
+    font-size: 12px;
 }
